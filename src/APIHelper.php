@@ -1,5 +1,4 @@
 <?php
-<?php
 /**
  * @copyright Copyright &copy; Amit Kasrung
  * @package yii2-pagesize-widget
