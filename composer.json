@@ -16,7 +16,6 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "dev-master",
        "textalk/websocket": "dev-master as 1.0.*"
     },
     "minimum-stability": "dev"
