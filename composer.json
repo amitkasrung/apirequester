@@ -15,9 +15,9 @@
             "role": "Developer"
         }
     ],
-    "require-dev": {
-        "php": ">=5.3.0",
-       "textalk/websocket": "1.0.*"
+    "require": {
+        "yiisoft/yii2": "dev-master",
+       "textalk/websocket": "dev-master as 1.0.*"
     },
     "minimum-stability": "dev"
 }
