@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "II5\\ApiRequesterHelper\\": "src/"
+            "": "src/"
         }
     }
 }
