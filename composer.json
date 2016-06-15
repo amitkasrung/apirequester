@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-       "textalk/websocket": "dev-master as 1.0.*"
+       "textalk/websocket": "1.0.*"
     },
     "minimum-stability": "dev"
 }
