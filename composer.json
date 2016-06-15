@@ -5,7 +5,7 @@
     "license": "MIT",
     "type": "yii2-extension",
     "autoload": {
-        "psr-4": {"ii5\\apihelper": "src/"}
+        "psr-4": {"requesthelper/apihelper": ""}
     },
     "authors": [
         {
@@ -15,6 +15,7 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*"
     }
