@@ -5,7 +5,7 @@
     "license": "MIT",
     "type": "yii2-extension",
     "autoload": {
-        "psr-4": {"requesthelper/apihelper": ""}
+        "psr-0": {"APIHelper": "src/"}
     },
     "authors": [
         {
@@ -15,8 +15,8 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "*"
+       "yiisoft/yii2": "*",
+       "textalk/websocket": "1.0.*"
     }
 }
