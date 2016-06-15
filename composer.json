@@ -1,7 +1,7 @@
 {
     "name": "ii5/apirequester",
     "description": "API requester as a third party component",
-    "keywords": ["yii2","apirequester"],
+    "keywords": ["apirequester"],
     "license": "MIT",
     "type": "yii2-extension",
     "autoload": {
@@ -16,6 +16,7 @@
         }
     ],
     "require": {
+       "php": ">=5.3.0",
        "yiisoft/yii2": "*",
        "textalk/websocket": "1.0.*"
     }
