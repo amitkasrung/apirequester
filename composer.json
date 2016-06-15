@@ -1,0 +1,32 @@
+{
+    "name": "ii5/apirequester",
+    "description": "API requester as a third party component",
+    "type": "yii2-extension",
+    "keywords": ["yii2","apirequester"],
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {"apirequester": "src/"}
+    },
+    "authors": [
+        {
+            "name": "Amit Kasrung",
+            "email": "amitkasrung@gmail.com",
+            "homepage": "https://github.com/amitkasrung/apirequester",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "amitkasrung@gmail.com",
+        "issues": "https://github.com/amitkasrung/apirequester/issues"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "~2.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "II5\\ApiRequesterHelper\\": "src/"
+        }
+    }
+}
