@@ -1,9 +1,21 @@
 <?php
-namespace II5\ApiRequesterHelper;
+<?php
+/**
+ * @copyright Copyright &copy; Amit Kasrung
+ * @package yii2-pagesize-widget
+ * @version 1.0.0
+ */
+ 
+namespace requesthelper\apihelper;
 
-use Yii;
+use yii;
 
-class APIHelper {
+/**
+ * @author Amit Kasrung <amitkasrung@gmail.com>
+ * @since 1.0
+ */
+class ApiHelper
+{
 
 	public static function request($reqUrl, $params, $reqType='post', $resType='array') {
             return "I am inside";
