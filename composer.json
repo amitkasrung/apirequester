@@ -3,6 +3,7 @@
     "description": "API requester as a third party component",
     "keywords": ["yii2","apirequester"],
     "license": "MIT",
+    "type": "yii2-extension",
     "autoload": {
         "psr-0": {"APIHelper": "src/"}
     },
@@ -14,13 +15,8 @@
             "role": "Developer"
         }
     ],
-    "support": {
-        "email": "amitkasrung@gmail.com",
-        "issues": "https://github.com/amitkasrung/apirequester/issues"
-    },
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5.0",
-        "yiisoft/yii2": "~2.0.6"
+        "yiisoft/yii2": "*"
     }
 }
