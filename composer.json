@@ -1,11 +1,11 @@
 {
-    "name": "amitkasrung/apirequester",
+    "name": "ii5/apirequester",
     "description": "API requester as a third party component",
     "keywords": ["yii2","apirequester"],
     "license": "MIT",
     "type": "yii2-extension",
     "autoload": {
-        "psr-4": {"requesthelper/apihelper": "src/"}
+        "psr-4": {"APIHelper": "src/"}
     },
     "authors": [
         {
