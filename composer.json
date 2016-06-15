@@ -5,7 +5,7 @@
     "license": "MIT",
     "type": "yii2-extension",
     "autoload": {
-        "psr-4": {"APIHelper": "src/"}
+        "psr-0": {"requesthelper/apihelper": "src/"}
     },
     "authors": [
         {
