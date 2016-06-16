@@ -5,7 +5,7 @@
  * @version 1.0.0
  */
  
-namespace requesthelper\apihelper;
+namespace ii5\requester;
 
 use yii;
 
